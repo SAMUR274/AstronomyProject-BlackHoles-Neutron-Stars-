@@ -124,28 +124,6 @@ export default function Practice() {
               Neutron stars have magnetic fields a trillion times stronger than Earth’s. In some cases, like magnetars, these fields are so powerful they can rip atoms apart and cause starquakes—fractures in the star’s crust that release bursts of energy.
             </p> */}
           </div>
-
-          {/* Section 5: Weird Physics */}
-          <div className="bg-purple-900/80 p-8 rounded-lg backdrop-blur-sm border border-purple-700/50 max-w-6xl w-full mb-8 flex flex-col items-center">
-            {/* <h2 className="text-2xl font-bold mb-4">Unlocking the Secrets of Neutron Stars</h2> */}
-            {/* Spotlight 5: NICER Mission */}
-            <div className="group w-64 h-64 rounded-full bg-purple-900/80 border border-purple-700/50 flex flex-col items-center justify-center transition-transform duration-300 transform hover:scale-110 hover:bg-purple-800/90">
-              <h2 className="text-lg font-bold text-center mb-2">Insight into Neutron Stars</h2>
-              <div className="text-sm text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 px-4">
-                <p><span className="font-bold text-purple-300">NICER:</span> ISS X-rays</p>
-                <p><span className="font-bold text-purple-300">Goal:</span> Core secrets</p>
-                <p><span className="font-bold text-purple-300">SEXTANT:</span> Space GPS</p>
-              </div>
-            </div>
-            <img
-              src="/images/neutronStars/6.gif" 
-              className="w-full h-auto rounded-lg border border-purple-700/50"
-            />
-        
-            {/* <p className="text-base">
-              Inside a neutron star, matter behaves in ways we can’t fully replicate on Earth. The core might contain a soup of quarks or even stranger states of matter. Scientists are still puzzling out what happens under such extreme conditions.
-            </p> */}
-          </div>
         </div>
       </div>
 
