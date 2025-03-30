@@ -59,8 +59,8 @@ export default function Home() {
                 href="/practice"
                 className="bg-purple-900/80 hover:bg-purple-800 text-white p-8 rounded-lg transition-all transform hover:scale-105 backdrop-blur-sm border border-purple-700/50"
               >
-                <h2 className="text-2xl font-bold mb-3">Practice</h2>
-                <p className="text-sm opacity-90">Test your knowledge with interactive quizzes on stellar physics</p>
+                <h2 className="text-2xl font-bold mb-3">Neutron Stars</h2>
+                <p className="text-sm opacity-90">Unlocking the Secrets of Neutron Stars</p>
               </Link>
               <Link 
                 href="/discoveries"
