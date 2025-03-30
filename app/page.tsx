@@ -49,11 +49,11 @@ export default function Home() {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16 max-w-4xl mx-auto">
               <Link 
-                href="/lets-learn"
+                href="/introduction"
                 className="bg-indigo-900/80 hover:bg-indigo-800 text-white p-8 rounded-lg transition-all transform hover:scale-105 backdrop-blur-sm border border-indigo-700/50"
               >
-                <h2 className="text-2xl font-bold mb-3">Let&apos;s Learn</h2>
-                <p className="text-sm opacity-90">Understand the fundamentals of white dwarfs, neutron stars, and black holes</p>
+                <h2 className="text-2xl font-bold mb-3">Introduction to Black Holes and Neutron Stars</h2>
+                <p className="text-sm opacity-90">Explore the fascinating world of these extreme cosmic objects</p>
               </Link>
               <Link 
                 href="/practice"
@@ -79,7 +79,8 @@ export default function Home() {
             </div>
             
             <div className="mt-12">
-              <button 
+              {/* Temporarily disabled until we have the correct 3D models */}
+              {/*<button 
                 onClick={() => setSelectedObject('blackhole')}
                 className="bg-red-900/80 hover:bg-red-800 text-white px-6 py-3 rounded-full transition-all transform hover:scale-105 backdrop-blur-sm mt-8 mr-4 border border-red-700/50"
               >
@@ -90,7 +91,7 @@ export default function Home() {
                 className="bg-orange-900/80 hover:bg-orange-800 text-white px-6 py-3 rounded-full transition-all transform hover:scale-105 backdrop-blur-sm mt-8 border border-orange-700/50"
               >
                 Explore 3D Neutron Star
-              </button>
+              </button>*/}
             </div>
           </div>
         </div>

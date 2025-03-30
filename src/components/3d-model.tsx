@@ -8,12 +8,15 @@ const BlackHoleModel = () => {
   useEffect(() => {
     if (!mountRef.current) return;
 
+    // Store ref in a variable for cleanup
+    const currentMount = mountRef.current;
+
     // Scene, Camera, Renderer
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     renderer.setSize(window.innerWidth, window.innerHeight);
-    mountRef.current.appendChild(renderer.domElement);
+    currentMount.appendChild(renderer.domElement);
     
     // Lighting
     const ambientLight = new THREE.AmbientLight(0x222222, 1);
@@ -158,19 +161,10 @@ const BlackHoleModel = () => {
     
     window.addEventListener("resize", onWindowResize);
     
+    // Cleanup
     return () => {
-      if (mountRef.current) {
-        mountRef.current.removeChild(renderer.domElement);
-      }
       window.removeEventListener("resize", onWindowResize);
-      
-      // Clean up THREE.js resources
-      particleGeometry.dispose();
-      particleMaterial.dispose();
-      blackHoleGeometry.dispose();
-      blackHoleMaterial.dispose();
-      diskGeometry.dispose();
-      diskMaterial.dispose();
+      currentMount.removeChild(renderer.domElement);
       renderer.dispose();
     };
   }, []);

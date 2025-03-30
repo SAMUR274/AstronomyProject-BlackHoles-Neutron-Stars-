@@ -32,18 +32,25 @@ export default function Home() {
           <div className="relative z-20">
             <div className="mb-12">
               <TypingEffect 
-                text="Explore the Bizarre Stellar Graveyard: Black Holes & Neutron Stars" 
+                texts={[
+                  "Explore the Bizarre Stellar Graveyard: Black Holes & Neutron Stars",
+                  "Where gravity becomes so strong, even light can't escape...",
+                  "Discover stars so dense, a teaspoon weighs as much as a mountain...",
+                  "Witness the most extreme environments in our universe...",
+                  "Journey through spacetime warps and quantum phenomena...",
+                  "Unravel the mysteries of stellar evolution..."
+                ]} 
                 className="text-3xl md:text-5xl font-bold text-white" 
               />
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16 max-w-4xl mx-auto">
               <Link 
-                href="/lets-learn"
+                href="/introduction"
                 className="bg-indigo-900/80 hover:bg-indigo-800 text-white p-8 rounded-lg transition-all transform hover:scale-105 backdrop-blur-sm border border-indigo-700/50"
               >
-                <h2 className="text-2xl font-bold mb-3">Let&apos;s Learn</h2>
-                <p className="text-sm opacity-90">Understand the fundamentals of white dwarfs, neutron stars, and black holes</p>
+                <h2 className="text-2xl font-bold mb-3">Introduction to Black Holes and Neutron Stars</h2>
+                <p className="text-sm opacity-90">Explore the fascinating world of these extreme cosmic objects</p>
               </Link>
               <Link 
                 href="/practice"
