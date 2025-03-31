@@ -70,11 +70,11 @@ export default function Home() {
                 <p className="text-sm opacity-90">Explore landmark discoveries from Jocelyn Bell to modern observations</p>
               </Link>
               <Link 
-                href="/learn-more"
+                href="/conclusion"
                 className="bg-cyan-900/80 hover:bg-cyan-800 text-white p-8 rounded-lg transition-all transform hover:scale-105 backdrop-blur-sm border border-cyan-700/50"
               >
-                <h2 className="text-2xl font-bold mb-3">Learn More</h2>
-                <p className="text-sm opacity-90">Dive deeper into relativistic physics and quantum mechanics</p>
+                <h2 className="text-2xl font-bold mb-3">Conclusion</h2>
+                <p className="text-sm opacity-90">conclusion</p>
               </Link>
             </div>
             
