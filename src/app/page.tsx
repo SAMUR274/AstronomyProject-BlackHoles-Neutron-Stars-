@@ -60,7 +60,7 @@ export default function Home() {
                 <p className="text-sm opacity-90">Test your knowledge with interactive quizzes on stellar physics</p>
               </Link>
               <Link 
-                href="/discoveries"
+                href="/Discovery"
                 className="bg-blue-900/80 hover:bg-blue-800 text-white p-8 rounded-lg transition-all transform hover:scale-105 backdrop-blur-sm border border-blue-700/50"
               >
                 <h2 className="text-2xl font-bold mb-3">Discoveries</h2>
