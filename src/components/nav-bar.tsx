@@ -15,7 +15,7 @@ export default function NavBar() {
           <Link href="/practice" className="text-white/80 hover:text-white transition-colors px-4">
             Practice
           </Link>
-          <Link href="/discoveries" className="text-white/80 hover:text-white transition-colors px-4">
+          <Link href="/Discovery" className="text-white/80 hover:text-white transition-colors px-4">
             Discoveries
           </Link>
           <Link href="/learn-more" className="text-white/80 hover:text-white transition-colors px-4">
