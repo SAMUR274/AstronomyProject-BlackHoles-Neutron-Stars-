@@ -74,7 +74,7 @@ export default function Home() {
                 className="bg-cyan-900/80 hover:bg-cyan-800 text-white p-8 rounded-lg transition-all transform hover:scale-105 backdrop-blur-sm border border-cyan-700/50"
               >
                 <h2 className="text-2xl font-bold mb-3">Conclusion</h2>
-                <p className="text-sm opacity-90">conclusion</p>
+                <p className="text-sm opacity-90">Key Takeaways, Our Final Message, and References</p>
               </Link>
             </div>
             
